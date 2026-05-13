@@ -79,7 +79,7 @@ function ListGoals({goals, data}) {
           style={{fontSize: fontSize.small}}
         >
           <option value="none">None</option>
-          <option value="a_z">A to zZ</option>
+          <option value="a_z">A to zzZ</option>
           <option value="z_a">Z to A</option>
           <option value="most_stars">Most Stars</option>
           <option value="fewest_stars">Fewest Stars</option>
