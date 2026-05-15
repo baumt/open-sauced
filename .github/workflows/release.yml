@@ -108,7 +108,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'ServiceNow Change'
-        uses: ServiceNow/servicenow-devops-change@VERSION
+        uses: ServiceNow/servicenow-devops-change@v6.1.0
         with:
           devops-integration-token: ${{ secrets.SN_DEVOPS_TOKEN }}
           instance-url: ${{ secrets.SN_INSTANCE_URL }}
