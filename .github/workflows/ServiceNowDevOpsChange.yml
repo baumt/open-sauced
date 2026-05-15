@@ -1,6 +1,4 @@
-jobs:
-  ServiceNowDevOpsChange:
-    name: 'ServiceNow DevOps Change'   # optional - displays in GitHub Actions UI
+name: ServiceNowDevOpsChange
     needs: build
     runs-on: ubuntu-latest
     steps:
