@@ -1,4 +1,4 @@
-ServiceNowDevOpsChange:
+name: ServiceNowDevOpsChange:
   needs: build
   runs-on: ubuntu-latest
   steps:
